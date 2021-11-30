@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Shippori Mincho', serif;
+  font-size: 25px;
+  background-color: #000000;
+  color: #c7d5df;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#subMe {
   color: white;
+  background-color:#04428E;
+
+}
+.playerN {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  color: #DD0024;
 }
 
-.App-link {
-  color: #61dafb;
+.headerTitle {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom:30px ; 
+  font-family: 'Nunito Sans', sans-serif;
+  border: 3px solid;
+  padding: 80px;
+  background-image:url('https://24.media.tumblr.com/36ad2ee279a33d6446caa8cd4005bb6c/tumblr_n1zvprWw7d1qedb29o1_500.gif');
+  background-repeat: no-repeat; 
+  background-position: center;
+  color: #B3ACB1; 
+  background-size: 700px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headerTwo {
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px; 
+  color: whitesmoke; 
 }
+
